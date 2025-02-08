@@ -1,0 +1,14 @@
+.educaplay-embed {
+	&__form {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 16px;
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	&__placeholder-input {
+		flex-grow: 1;
+	}
+}

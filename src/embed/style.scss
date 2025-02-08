@@ -1,0 +1,17 @@
+.wp-block-educaplay-embed {
+	display: flex;
+}
+
+.educaplay-embed {
+	&__iframe {
+		width: 100%;
+		border: none;
+		aspect-ratio: 412 / 915;
+		max-height: 100dvh;
+
+		@media (orientation: landscape) {
+			aspect-ratio: 795 / 690;
+			max-height: max(72dvh, 780px);
+		}
+	}
+}
