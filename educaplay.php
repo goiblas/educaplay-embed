@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:       Educaplay Embed Block
+ * Plugin Name:       Educaplay
  * Description:       Embed Educaplay activities in your WordPress site.
- * Version:           0.1.0
+ * Version:           1.0.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Jesús Olazagoitia
