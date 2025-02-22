@@ -11,8 +11,9 @@ export default function Save({ attributes }) {
         <div {...useBlockProps.save()}>
             <iframe
                 src={url}
-                allowFullScreen
                 className="educaplay-embed__iframe"
+                allow="fullscreen; autoplay;"
+                allowFullScreen
             />
         </div>
     );

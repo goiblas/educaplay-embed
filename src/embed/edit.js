@@ -74,7 +74,7 @@ export default function Edit({ attributes, setAttributes }) {
 		const iframeIrl = getEducaplayIframeUrl(url);
 
 		if (!iframeIrl) {
-			setError(__('The URL is not valid.', 'educaplay'));
+			setError(__('The URL is not valid.', 'embed-activities-for-educaplay'));
 			return;
 		}
 
@@ -91,7 +91,7 @@ export default function Edit({ attributes, setAttributes }) {
 						<BlockControls>
 							<ToolbarGroup>
 								<ToolbarButton
-									label={__('Edit URL', 'educaplay')}
+									label={__('Edit URL', 'embed-activities-for-educaplay')}
 									icon={edit}
 									onClick={() => setIsEditingURL(true)}
 								/>
@@ -115,17 +115,17 @@ export default function Edit({ attributes, setAttributes }) {
 			<Placeholder
 				icon={EducaplayIcon}
 				className="wp-block-embed"
-				label={__('Educaplay embed URL', 'educaplay')}
-				instructions={__('Paste a URL to embed content from Educaplay.', 'educaplay')}
+				label={__('Educaplay embed URL', 'embed-activities-for-educaplay')}
+				instructions={__('Paste a URL to embed content from Educaplay.', 'embed-activities-for-educaplay')}
 			>
 				<form onSubmit={handleSubmit} className='educaplay-embed__form'>
 					<InputControl
 						type="url"
 						value={url}
 						className="educaplay-embed__placeholder-input"
-						label={__('Paste URL to embed content from Educaplay', 'educaplay')}
+						label={__('Paste URL to embed content from Educaplay', 'embed-activities-for-educaplay')}
 						hideLabelFromVision
-						placeholder={__('Enter URL to embed here…', 'educaplay')}
+						placeholder={__('Enter URL to embed here…', 'embed-activities-for-educaplay')}
 						__next40pxDefaultSize
 						onChange={(nextValue) => {
 							setURL(nextValue ?? '');
@@ -133,7 +133,7 @@ export default function Edit({ attributes, setAttributes }) {
 						}}
 					/>
 					<Button __next40pxDefaultSize variant="primary" type="submit">
-						{__('Embed', 'educaplay')}
+						{__('Embed', 'embed-activities-for-educaplay')}
 					</Button>
 				</form>
 

@@ -1,9 +1,9 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "educaplay/embed",
+	"name": "embed-activities-for-educaplay/block",
 	"version": "1.0.0",
-	"title": "Educaplay",
+	"title": "Embed Activities for Educaplay",
 	"category": "embed",
 	"icon": "smiley",
 	"description": "Embed Educaplay activities in your WordPress site.",
@@ -19,7 +19,7 @@
 			"margin": true
 		}
 	},
-	"textdomain": "educaplay",
+	"textdomain": "embed-activities-for-educaplay",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",

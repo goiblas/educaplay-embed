@@ -1,1 +1,19 @@
-.wp-block-educaplay-embed{display:flex}.educaplay-embed__iframe{aspect-ratio:412/915;border:none;max-height:100dvh;width:100%}@media(orientation:landscape){.educaplay-embed__iframe{aspect-ratio:795/690;max-height:max(72dvh,780px)}}
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/embed/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.wp-block-educaplay-embed {
+  display: flex;
+}
+
+.educaplay-embed__iframe {
+  width: 100%;
+  border: none;
+  aspect-ratio: 412/915;
+  max-height: 100dvh;
+}
+@media (orientation: landscape) {
+  .educaplay-embed__iframe {
+    aspect-ratio: 795/690;
+    max-height: max(72dvh, 780px);
+  }
+}
