@@ -2,7 +2,7 @@
 Contributors:      goiblas
 Tags:              embed, educaplay
 Tested up to:      6.7
-Stable tag:        1.0.0
+Stable tag:        1.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,3 +21,6 @@ Embed Educaplay activities in your WordPress site
 
 = 1.0.0 =
 * Release
+
+= 1.1.0 =
+* Enhancement - Set width 100% to the block container to prevent potential issues with flex.

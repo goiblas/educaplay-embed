@@ -1,6 +1,6 @@
 {
 	"name": "@educaplay/embed-block",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Embed Educaplay activities in your WordPress site.",
 	"author": "Jesús Olazagoitia",
 	"license": "GPL-2.0-or-later",
