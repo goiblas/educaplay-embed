@@ -1,16 +1,16 @@
 === Embed Activities for Educaplay ===
 Contributors:      goiblas
-Tags:              embed, educaplay
+Tags:              embed, educaplay, games, activities
 Tested up to:      6.8
 Stable tag:        1.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Embed Educaplay activities in your WordPress site
+Embed Educaplay games in your WordPress site
 
 == Description ==
 
-Embed Educaplay activities in your WordPress site
+Embed Educaplay games in your WordPress site
 
 == Installation ==
 
