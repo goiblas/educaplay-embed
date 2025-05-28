@@ -24,3 +24,6 @@ Embed Educaplay games in your WordPress site
 
 = 1.1.0 =
 * Enhancement - Set width 100% to the block container to prevent potential issues with flex.
+
+= 1.1.1 =
+* Enhancement - Improve title and description of the block.

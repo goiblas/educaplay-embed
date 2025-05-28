@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Embed Activities for Educaplay
+ * Plugin Name:       Embed Games for Educaplay
  * Description:       Embed Educaplay games in your WordPress site.
  * Version:           1.1.0
  * Requires at least: 6.7
