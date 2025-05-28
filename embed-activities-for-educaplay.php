@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Embed Games for Educaplay
  * Description:       Embed Educaplay games in your WordPress site.
- * Version:           1.1.0
+ * Version:           1.1.2
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Jesús Olazagoitia
